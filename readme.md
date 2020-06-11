@@ -7,6 +7,7 @@ Vi vil forsøg på en aften at gå fra en ide til et produkt/prototype. Til form
 * Kode på esp8266/esp32 i arduino IDE
 * Udlægning af print med KIcad
 * Mqtt og hvordan vi kan bruge det i automation
+* Samarbejde via GitHUB
 
 Niveauet bliver let så alle der har lyst til at prøve at udvikle deres egen print eller automatik, vil få en god start på deres produkt. Dette er for begynder, så bare kom og vær med.
 
@@ -23,5 +24,5 @@ Plan
 * Kodning i arduino
 * Samarbejde og deling via github
 
-
+[Print](https://github.com/gert-lauritsen/IdaDemo/blob/master/pcbimage.jpg)
 
