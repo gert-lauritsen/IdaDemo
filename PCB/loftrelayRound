@@ -1,0 +1,37 @@
+Source,C:\Users\Gert\Documents\KiCad\Askob\HomeAutomation\LoftRelayRound\loftrelayRound.sch
+Kicad Rev,Eeschema (5.0.2)-1
+Generated Date,19/01/2020 12:33:29
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+U2,PC817,Isolator,PC817
+C1,33nF,Device,C_Small
+R1,100R,Device,R_Small
+J1,PowerIn,Connector_Generic,Conn_01x03
+J2,Load,Connector_Generic,Conn_01x02
+U4,ESP-12E,RF_Module,ESP-12E
+R4,10k,Device,R_Small
+R3,10k,Device,R_Small
+R5,10k,Device,R_Small
+R6,10k,Device,R_Small
+R7,10k,Device,R_Small
+R2,100k,Device,R_Small
+Q1,2N7002,Transistor_FET,2N7002
+J3,Temp,Connector_Generic,Conn_01x03
+C2,22uF,Device,C_Small
+C3,22uF,Device,C_Small
+C4,22uF,Device,C_Small
+D2,D,Device,D
+K1,G5Q-14-EU DC5,Relay,G5Q-1A
+R8,10k,Device,R_Small
+C5,100nF,Device,C_Small
+U1,AP1117-33,Regulator_Linear,AP1117-33
+PS1,IRM-02-5,Converter_ACDC,IRM-02-5
+J4,Program,Connector_Generic,Conn_02x03_Odd_Even
+D1,BAT54A,Diode,BAT54A
+D3,BAT54A,Diode,BAT54A
+F1,8A,Device,Fuse
