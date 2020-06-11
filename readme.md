@@ -24,5 +24,5 @@ Plan
 * Kodning i arduino
 * Samarbejde og deling via github
 
-[Print](https://github.com/gert-lauritsen/IdaDemo/blob/master/pcbimage.jpg)
+![Print](https://github.com/gert-lauritsen/IdaDemo/blob/master/pcbimage.jpg)
 
