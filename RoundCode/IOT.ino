@@ -58,9 +58,9 @@ void wifiSetup() {
   sprintf(mqttTopicStatus, "/%08X/Status", ESP.getChipId());
   sprintf(ONOFF_FEED, "/%08X/cmd", ESP.getChipId());
 
-  if (SPIFFS.begin()) ReadSetup();
-  
-  //if (SPIFFS.begin()) SaveConfig();
+  if (SPIFFS.begin()) 
+   if (SPIFFS.exists("/config.json")) ReadSetup(); else SaveConfig();
+   
   WiFi.mode(WIFI_STA);
   WiFi.begin(&ssid[0], &wifipassword[0]);
   WiFi.hostname(ID);

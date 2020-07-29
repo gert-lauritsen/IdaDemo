@@ -8,6 +8,7 @@
 #include <DNSServer.h>            //Local DNS Server used for redirecting all requests to the configuration portal
 #include <ESP8266WebServer.h>     //Local WebServer used to serve the configuration portal
 #include <ArduinoJson.h>          //https://github.com/bblanchon/ArduinoJson
+#include "password.h"
 
 const int relay     = 15;
 const int OptoInput = 5;
@@ -65,7 +66,7 @@ void setup() {
   //clean FS, for testing
   //SPIFFS.format();
 
-  WifiSetup();
+  wifiSetup();
 
   Serial.println("Ready");
   Serial.print("IP address: ");
@@ -112,4 +113,3 @@ void loop() {
     SendStatus();
   }
 }
-
