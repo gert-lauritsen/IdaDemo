@@ -25,25 +25,14 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4050 3150 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
-U 1 1 5BA2C4FB
-P 3350 3050
-F 0 "C1" V 3121 3050 50  0000 C CNN
-F 1 "33nF" V 3212 3050 50  0000 C CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 3350 3050 50  0001 C CNN
-F 3 "~" H 3350 3050 50  0001 C CNN
-	1    3350 3050
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small R1
 U 1 1 5BA2C593
-P 3550 3050
-F 0 "R1" V 3354 3050 50  0000 C CNN
-F 1 "100R" V 3445 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 3550 3050 50  0001 C CNN
-F 3 "~" H 3550 3050 50  0001 C CNN
-	1    3550 3050
+P 3450 3050
+F 0 "R1" V 3254 3050 50  0000 C CNN
+F 1 "10k" V 3345 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3450 3050 50  0001 C CNN
+F 3 "~" H 3450 3050 50  0001 C CNN
+	1    3450 3050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -52,7 +41,7 @@ U 1 1 5BA2C63B
 P 2350 2650
 F 0 "J1" H 2270 2967 50  0000 C CNN
 F 1 "PowerIn" H 2270 2876 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_NanoFit_1x03x2.50mm_Straight" H 2350 2650 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical" H 2350 2650 50  0001 C CNN
 F 3 "~" H 2350 2650 50  0001 C CNN
 	1    2350 2650
 	-1   0    0    -1  
@@ -63,7 +52,7 @@ U 1 1 5BA2C858
 P 2350 3000
 F 0 "J2" H 2270 3217 50  0000 C CNN
 F 1 "Load" H 2270 3126 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_NanoFit_1x02x2.50mm_Straight" H 2350 3000 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 2350 3000 50  0001 C CNN
 F 3 "~" H 2350 3000 50  0001 C CNN
 	1    2350 3000
 	-1   0    0    -1  
@@ -433,8 +422,6 @@ Wire Wire Line
 	2550 2550 3050 2550
 Wire Wire Line
 	3050 2550 3050 3050
-Wire Wire Line
-	3050 3050 3250 3050
 Connection ~ 2750 2750
 Wire Wire Line
 	2750 2750 2550 2750
@@ -455,10 +442,7 @@ Wire Wire Line
 	3750 3250 3750 3350
 Wire Wire Line
 	2750 2750 2750 3000
-Wire Wire Line
-	2750 3350 3650 3350
 Connection ~ 3650 3050
-Connection ~ 3650 3350
 Wire Wire Line
 	3650 3350 3750 3350
 $Comp
@@ -772,4 +756,24 @@ Wire Wire Line
 	7950 3450 8600 3450
 Wire Wire Line
 	4350 3250 4800 3250
+$Comp
+L Device:R_Small R8
+U 1 1 5F223F8A
+P 3450 3350
+F 0 "R8" V 3254 3350 50  0000 C CNN
+F 1 "10k" V 3345 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3450 3350 50  0001 C CNN
+F 3 "~" H 3450 3350 50  0001 C CNN
+	1    3450 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 3050 3550 3050
+Wire Wire Line
+	3050 3050 3350 3050
+Wire Wire Line
+	3650 3350 3550 3350
+Connection ~ 3650 3350
+Wire Wire Line
+	3350 3350 2750 3350
 $EndSCHEMATC
