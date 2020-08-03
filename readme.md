@@ -26,3 +26,8 @@ Plan
 
 ![Print](https://github.com/gert-lauritsen/IdaDemo/blob/master/pcbimage.jpg)
 
+##Install ESP8266 på arduino
+Under preference sætte følgede linie ind i additional boards:
+https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+Gå til Tools>Board>BoardManager søg efter esp8266 tryk install
