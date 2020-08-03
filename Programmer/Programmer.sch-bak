@@ -396,23 +396,23 @@ VBUS
 $Comp
 L Device:R_Small R3
 U 1 1 5F2A90CC
-P 3050 6050
-F 0 "R3" V 2854 6050 50  0000 C CNN
-F 1 "5k1" V 2945 6050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 6050 50  0001 C CNN
-F 3 "~" H 3050 6050 50  0001 C CNN
-	1    3050 6050
+P 3050 5800
+F 0 "R3" V 2854 5800 50  0000 C CNN
+F 1 "5k1" V 2945 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 5800 50  0001 C CNN
+F 3 "~" H 3050 5800 50  0001 C CNN
+	1    3050 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R4
 U 1 1 5F2A9F6E
-P 3050 5050
-F 0 "R4" V 2854 5050 50  0000 C CNN
-F 1 "5k1" V 2945 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 5050 50  0001 C CNN
-F 3 "~" H 3050 5050 50  0001 C CNN
-	1    3050 5050
+P 3050 4800
+F 0 "R4" V 2854 4800 50  0000 C CNN
+F 1 "5k1" V 2945 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 4800 50  0001 C CNN
+F 3 "~" H 3050 4800 50  0001 C CNN
+	1    3050 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -457,9 +457,9 @@ $EndComp
 Wire Wire Line
 	2450 5000 2400 5000
 Connection ~ 2400 5000
-Text GLabel 3550 6050 3    50   Input ~ 0
+Text GLabel 3550 5800 3    50   Input ~ 0
 D+
-Text GLabel 3550 5050 1    50   Input ~ 0
+Text GLabel 3550 4800 1    50   Input ~ 0
 D-
 Text GLabel 4100 2300 0    50   Input ~ 0
 D-
@@ -468,48 +468,52 @@ D+
 $Comp
 L dk_TVS-Diodes:USBLC6-2SC6 D1
 U 1 1 5F282DC2
-P 3850 5550
-F 0 "D1" V 3903 5022 60  0000 R CNN
-F 1 "824014" V 3797 5022 60  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4050 5750 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 5850 60  0001 L CNN
-F 4 "497-5235-1-ND" H 4050 5950 60  0001 L CNN "Digi-Key_PN"
-F 5 "USBLC6-2SC6" H 4050 6050 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 4050 6150 60  0001 L CNN "Category"
-F 7 "TVS - Diodes" H 4050 6250 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 6350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688" H 4050 6450 60  0001 L CNN "DK_Detail_Page"
-F 10 "TVS DIODE 5.25V 17V SOT23-6" H 4050 6550 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 4050 6650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4050 6750 60  0001 L CNN "Status"
-	1    3850 5550
+P 3850 5300
+F 0 "D1" V 3903 4772 60  0000 R CNN
+F 1 "824014" V 3797 4772 60  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4050 5500 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 5600 60  0001 L CNN
+F 4 "497-5235-1-ND" H 4050 5700 60  0001 L CNN "Digi-Key_PN"
+F 5 "USBLC6-2SC6" H 4050 5800 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 4050 5900 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 4050 6000 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 6100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688" H 4050 6200 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 5.25V 17V SOT23-6" H 4050 6300 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 4050 6400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4050 6500 60  0001 L CNN "Status"
+	1    3850 5300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3550 6050 3150 6050
+	3550 5800 3150 5800
 Wire Wire Line
-	3550 5050 3150 5050
-Wire Wire Line
-	2950 6050 2950 5400
+	3550 4800 3150 4800
 Wire Wire Line
 	2100 5400 2950 5400
 Wire Wire Line
 	2100 5200 2950 5200
-Wire Wire Line
-	2950 5200 2950 5050
 $Comp
 L power:GNDD #PWR0112
 U 1 1 5F29BCC2
-P 3850 6050
-F 0 "#PWR0112" H 3850 5800 50  0001 C CNN
-F 1 "GNDD" H 3854 5895 50  0000 C CNN
-F 2 "" H 3850 6050 50  0001 C CNN
-F 3 "" H 3850 6050 50  0001 C CNN
-	1    3850 6050
+P 3850 5800
+F 0 "#PWR0112" H 3850 5550 50  0001 C CNN
+F 1 "GNDD" H 3854 5645 50  0000 C CNN
+F 2 "" H 3850 5800 50  0001 C CNN
+F 3 "" H 3850 5800 50  0001 C CNN
+	1    3850 5800
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 4750 2    50   Input ~ 0
+Text GLabel 3850 4500 2    50   Input ~ 0
 VBUS
 Wire Wire Line
-	3850 5050 3850 4750
+	3850 4800 3850 4500
+Text Label 2650 5200 0    50   ~ 0
+D_N
+Text Label 2650 5400 0    50   ~ 0
+D_P
+Wire Wire Line
+	2950 4800 2950 5200
+Wire Wire Line
+	2950 5400 2950 5800
 $EndSCHEMATC
