@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>Z:\Gert.lauritsen\Arbejdsfiler\Askob\FritidsProjekter\HomeAutomation\IdaDemo\Programmer\Programmer.sch</source>
+    <date>03/08/2020 18:00:39</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Programmer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>FT232RL-REEL</value>
+      <footprint>Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</footprint>
+      <datasheet>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402</field>
+        <field name="Description">IC USB FS SERIAL UART 28-SSOP</field>
+        <field name="Digi-Key_PN">768-1007-1-ND</field>
+        <field name="Family">Interface - Controllers</field>
+        <field name="MPN">FT232RL-REEL</field>
+        <field name="Manufacturer">FTDI, Future Technology Devices International Ltd</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Interface-Controllers" part="FT232RL-REEL" description="IC USB FS SERIAL UART 28-SSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27FC62</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Prog</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F283B00</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F287895</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC846BS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC846BS.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC846BS" description="100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F28B462</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F29013E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F290780</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP2112K-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F296C7D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F298473</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F29993B</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite Bead</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2A1AB3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2A2BFA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2A60F8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2A90CC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2A9F6E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AC5D0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2ACF8D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>824014</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
+      <fields>
+        <field name="Category">Circuit Protection</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688</field>
+        <field name="Description">TVS DIODE 5.25V 17V SOT23-6</field>
+        <field name="Digi-Key_PN">497-5235-1-ND</field>
+        <field name="Family">TVS - Diodes</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_TVS-Diodes" part="USBLC6-2SC6" description="TVS DIODE 5.25V 17V SOT23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F282DC2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2204K-1.5">
+      <aliases>
+        <alias>AP2204K-1.8</alias>
+        <alias>AP2204K-2.5</alias>
+        <alias>AP2204K-2.8</alias>
+        <alias>AP2204K-3.0</alias>
+        <alias>AP2204K-3.3</alias>
+        <alias>AP2204K-5.0</alias>
+        <alias>AP2127K-1.0</alias>
+        <alias>AP2127K-1.2</alias>
+        <alias>AP2127K-1.5</alias>
+        <alias>AP2127K-1.8</alias>
+        <alias>AP2127K-2.5</alias>
+        <alias>AP2127K-2.8</alias>
+        <alias>AP2127K-3.0</alias>
+        <alias>AP2127K-3.3</alias>
+        <alias>AP2127K-4.2</alias>
+        <alias>AP2127K-4.75</alias>
+        <alias>AP2112K-1.2</alias>
+        <alias>AP2112K-1.8</alias>
+        <alias>AP2112K-2.5</alias>
+        <alias>AP2112K-2.6</alias>
+        <alias>AP2112K-3.3</alias>
+      </aliases>
+      <description>150mA low dropout linear regulator, wide input voltage range, 1.5V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2204.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2204K-1.5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC846BS">
+      <aliases>
+        <alias>BC846BDW1</alias>
+        <alias>BC847BS</alias>
+        <alias>BC847BDW1</alias>
+        <alias>PMBT2222AYS</alias>
+        <alias>MMDT2222A</alias>
+        <alias>MBT2222ADW1T1</alias>
+        <alias>FFB2222A</alias>
+        <alias>PMBT3904YS</alias>
+        <alias>MMDT3904</alias>
+        <alias>MBT3904DW1</alias>
+        <alias>FFB3904</alias>
+        <alias>MMDT5551</alias>
+        <alias>FFB5551</alias>
+        <alias>PUMX1</alias>
+      </aliases>
+      <description>100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BC846BS.pdf</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC846BS</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Interface-Controllers" part="FT232RL-REEL">
+      <description>IC USB FS SERIAL UART 28-SSOP</description>
+      <docs>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT232RL-REEL</field>
+        <field name="Footprint">digikey-footprints:SSOP-28_W5.30mm</field>
+        <field name="Datasheet">https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</field>
+        <field name="Digi-Key_PN">768-1007-1-ND</field>
+        <field name="MPN">FT232RL-REEL</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Interface - Controllers</field>
+        <field name="DK_Datasheet_Link">https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402</field>
+        <field name="Description">IC USB FS SERIAL UART 28-SSOP</field>
+        <field name="Manufacturer">FTDI, Future Technology Devices International Ltd</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="DTR" type="output"/>
+        <pin num="3" name="RTS" type="output"/>
+        <pin num="4" name="VCCIO" type="power_in"/>
+        <pin num="5" name="RXD" type="input"/>
+        <pin num="6" name="RI" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="DSR" type="input"/>
+        <pin num="10" name="DCD" type="input"/>
+        <pin num="11" name="CTS" type="input"/>
+        <pin num="12" name="CBUS4" type="BiDi"/>
+        <pin num="13" name="CBUS2" type="BiDi"/>
+        <pin num="14" name="CBUS3" type="BiDi"/>
+        <pin num="15" name="USBDP" type="BiDi"/>
+        <pin num="16" name="USBDM" type="BiDi"/>
+        <pin num="17" name="3V3OUT" type="passive"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="RESET" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="CBUS1" type="BiDi"/>
+        <pin num="23" name="CBUS0" type="BiDi"/>
+        <pin num="24" name="NC" type="NotConnected"/>
+        <pin num="25" name="AGND" type="power_in"/>
+        <pin num="26" name="TEST" type="power_in"/>
+        <pin num="27" name="OSCI" type="input"/>
+        <pin num="28" name="OSCO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_TVS-Diodes" part="USBLC6-2SC6">
+      <description>TVS DIODE 5.25V 17V SOT23-6</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">digikey-footprints:SOT23-6L</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="Digi-Key_PN">497-5235-1-ND</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Category">Circuit Protection</field>
+        <field name="Family">TVS - Diodes</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688</field>
+        <field name="Description">TVS DIODE 5.25V 17V SOT23-6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="dk_Interface-Controllers">
+      <uri>C:/Users/Gert/Documents/Kicad/digikey-kicad-library/digikey-symbols/dk_Interface-Controllers.lib</uri>
+    </library>
+    <library logical="dk_TVS-Diodes">
+      <uri>C:/Users/Gert/Documents/Kicad/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="FB1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="U2" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="4" name="GNDD">
+      <node ref="C3" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="26"/>
+      <node ref="U2" pin="25"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="18"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="J1" pin="B1"/>
+    </net>
+    <net code="5" name="D+">
+      <node ref="D1" pin="1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="8" name="D-">
+      <node ref="U2" pin="16"/>
+      <node ref="D1" pin="6"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="9" name="VBUS">
+      <node ref="D1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="J1" pin="A4"/>
+    </net>
+    <net code="10" name="/D_N">
+      <node ref="J1" pin="A7"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="11" name="/D_P">
+      <node ref="J1" pin="A6"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J1-PadB6)">
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="13" name="Net-(J1-PadB7)">
+      <node ref="J1" pin="B7"/>
+    </net>
+    <net code="14" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="15" name="Net-(J1-PadS1)">
+      <node ref="J1" pin="S1"/>
+    </net>
+    <net code="16" name="Net-(J1-PadA5)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="A5"/>
+    </net>
+    <net code="17" name="Net-(J1-PadB5)">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="B5"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="20" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="17"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="22" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="23" name="TX">
+      <node ref="U2" pin="5"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="35" name="D0">
+      <node ref="Q1" pin="3"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="36" name="EN">
+      <node ref="J2" pin="1"/>
+      <node ref="Q1" pin="6"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="38" name="RX">
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="39" name="Net-(Q1-Pad4)">
+      <node ref="R5" pin="2"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="40" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q1-Pad5)">
+      <node ref="Q1" pin="5"/>
+      <node ref="R6" pin="1"/>
+    </net>
+  </nets>
+</export>
