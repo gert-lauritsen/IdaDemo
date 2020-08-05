@@ -451,7 +451,7 @@ U 1 1 5BA3CB5A
 P 3300 3850
 F 0 "K1" H 2870 3804 50  0000 R CNN
 F 1 "G5Q-14-EU DC5" H 2800 4050 50  0000 R CNN
-F 2 "Relays_THT:Relay_SPST_OMRON-G5Q" H 3650 3800 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPST_Omron-G5Q-1A" H 3650 3800 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 4400 3550 50  0001 C CNN
 	1    3300 3850
 	-1   0    0    1   
