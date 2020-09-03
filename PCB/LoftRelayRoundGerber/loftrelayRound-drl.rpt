@@ -1,5 +1,5 @@
-Drill report for Z:\Gert.lauritsen\Arbejdsfiler\Askob\FritidsProjekter\HomeAutomation\IdaDemo\PCB\loftrelayRound.kicad_pcb
-Created on 29/07/2020 11:18:34
+Drill report for Z:/Gert.lauritsen/Arbejdsfiler/Askob/FritidsProjekter/HomeAutomation/IdaDemo/PCB/loftrelayRound.kicad_pcb
+Created on 03/09/2020 01:07:24
 
 Copper Layer Stackup:
     =============================================================
@@ -11,11 +11,11 @@ Drill file 'loftrelayRound-PTH.drl' contains
     plated through holes:
     =============================================================
     T1  0.40mm  0.016"  (16 holes)
-    T2  0.76mm  0.030"  (4 holes)
+    T2  0.76mm  0.030"  (2 holes)
     T3  0.80mm  0.031"  (2 holes)
     T4  1.00mm  0.039"  (6 holes)
     T5  1.02mm  0.040"  (5 holes)
-    T6  1.30mm  0.051"  (2 holes)
+    T6  1.30mm  0.051"  (4 holes)
 
     Total plated holes count 35
 

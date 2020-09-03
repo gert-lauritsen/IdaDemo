@@ -1,5 +1,5 @@
 Drill report for Z:\Gert.lauritsen\Arbejdsfiler\Askob\FritidsProjekter\HomeAutomation\IdaDemo\Programmer\Programmer.kicad_pcb
-Created on 08/04/20 09:13:14
+Created on 17/08/2020 23:15:37
 
 Copper Layer Stackup:
     =============================================================
@@ -10,15 +10,14 @@ Copper Layer Stackup:
 Drill file 'Programmer-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (30 holes)
-    T2  0.50mm  0.020"  (4 holes)  (with 4 slots)
+    T1  0.40mm  0.016"  (15 holes)
 
-    Total plated holes count 34
+    Total plated holes count 15
 
 
 Drill file 'Programmer-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  0.65mm  0.026"  (2 holes)  (with 1 slot)
+    T1  0.90mm  0.035"  (2 holes)
 
     Total unplated holes count 2

@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Programmer interface for ESP"
+Date "2020-08-04"
 Rev ""
 Comp ""
 Comment1 ""
@@ -347,155 +347,33 @@ Wire Wire Line
 Wire Wire Line
 	3500 1050 3850 1050
 Connection ~ 3850 1050
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 5F2A60F8
-P 1500 5300
-F 0 "J1" H 1607 6167 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1607 6076 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1650 5300 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1650 5300 50  0001 C CNN
-	1    1500 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0110
-U 1 1 5F2A860F
-P 1500 6200
-F 0 "#PWR0110" H 1500 5950 50  0001 C CNN
-F 1 "GNDD" H 1504 6045 50  0000 C CNN
-F 2 "" H 1500 6200 50  0001 C CNN
-F 3 "" H 1500 6200 50  0001 C CNN
-	1    1500 6200
-	1    0    0    -1  
-$EndComp
 Text GLabel 3500 1050 0    50   Input ~ 0
 VBUS
-Text GLabel 2100 4700 2    50   Input ~ 0
-VBUS
-$Comp
-L Device:R_Small R3
-U 1 1 5F2A90CC
-P 3050 5800
-F 0 "R3" V 2854 5800 50  0000 C CNN
-F 1 "5k1" V 2945 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 5800 50  0001 C CNN
-F 3 "~" H 3050 5800 50  0001 C CNN
-	1    3050 5800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 5F2A9F6E
-P 3050 4800
-F 0 "R4" V 2854 4800 50  0000 C CNN
-F 1 "5k1" V 2945 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 4800 50  0001 C CNN
-F 3 "~" H 3050 4800 50  0001 C CNN
-	1    3050 4800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 5F2AC5D0
-P 2300 4900
-F 0 "R1" V 2200 4900 50  0000 C CNN
-F 1 "5k1" V 2250 5100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 4900 50  0001 C CNN
-F 3 "~" H 2300 4900 50  0001 C CNN
-	1    2300 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5F2ACF8D
-P 2300 5000
-F 0 "R2" V 2350 4850 50  0000 C CNN
-F 1 "5k1" V 2400 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 5000 50  0001 C CNN
-F 3 "~" H 2300 5000 50  0001 C CNN
-	1    2300 5000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2200 4900 2100 4900
-Wire Wire Line
-	2200 5000 2100 5000
-Wire Wire Line
-	2400 4900 2400 5000
-$Comp
-L power:GNDD #PWR0111
-U 1 1 5F2B1DF3
-P 2450 5000
-F 0 "#PWR0111" H 2450 4750 50  0001 C CNN
-F 1 "GNDD" H 2454 4845 50  0000 C CNN
-F 2 "" H 2450 5000 50  0001 C CNN
-F 3 "" H 2450 5000 50  0001 C CNN
-	1    2450 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 5000 2400 5000
-Connection ~ 2400 5000
-Text GLabel 3550 5800 3    50   Input ~ 0
+Text GLabel 4700 5400 2    50   Input ~ 0
 D+
-Text GLabel 3550 4800 1    50   Input ~ 0
+Text GLabel 4700 5200 2    50   Input ~ 0
 D-
 Text GLabel 4100 2300 0    50   Input ~ 0
 D-
 Text GLabel 4100 2200 0    50   Input ~ 0
 D+
 $Comp
-L dk_TVS-Diodes:USBLC6-2SC6 D1
-U 1 1 5F282DC2
-P 3850 5300
-F 0 "D1" V 3903 4772 60  0000 R CNN
-F 1 "824014" V 3797 4772 60  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4050 5500 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 5600 60  0001 L CNN
-F 4 "497-5235-1-ND" H 4050 5700 60  0001 L CNN "Digi-Key_PN"
-F 5 "USBLC6-2SC6" H 4050 5800 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 4050 5900 60  0001 L CNN "Category"
-F 7 "TVS - Diodes" H 4050 6000 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 6100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688" H 4050 6200 60  0001 L CNN "DK_Detail_Page"
-F 10 "TVS DIODE 5.25V 17V SOT23-6" H 4050 6300 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 4050 6400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4050 6500 60  0001 L CNN "Status"
-	1    3850 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3550 5800 3150 5800
-Wire Wire Line
-	3550 4800 3150 4800
-Wire Wire Line
-	2100 5400 2950 5400
-Wire Wire Line
-	2100 5200 2950 5200
-$Comp
 L power:GNDD #PWR0112
 U 1 1 5F29BCC2
-P 3850 5800
-F 0 "#PWR0112" H 3850 5550 50  0001 C CNN
-F 1 "GNDD" H 3854 5645 50  0000 C CNN
-F 2 "" H 3850 5800 50  0001 C CNN
-F 3 "" H 3850 5800 50  0001 C CNN
-	1    3850 5800
+P 3300 5750
+F 0 "#PWR0112" H 3300 5500 50  0001 C CNN
+F 1 "GNDD" H 3304 5595 50  0000 C CNN
+F 2 "" H 3300 5750 50  0001 C CNN
+F 3 "" H 3300 5750 50  0001 C CNN
+	1    3300 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 4500 2    50   Input ~ 0
+Text GLabel 4700 5300 2    50   Input ~ 0
 VBUS
-Wire Wire Line
-	3850 4800 3850 4500
-Text Label 2650 5200 0    50   ~ 0
+Text Label 3100 5200 0    50   ~ 0
 D_N
-Text Label 2650 5400 0    50   ~ 0
+Text Label 3100 5500 0    50   ~ 0
 D_P
-Wire Wire Line
-	2950 4800 2950 5200
-Wire Wire Line
-	2950 5400 2950 5800
 $Comp
 L power:VCC #PWR0107
 U 1 1 5F293AE4
@@ -534,17 +412,6 @@ Wire Wire Line
 	4450 2400 4300 2400
 Wire Wire Line
 	4300 2400 4300 2050
-$Comp
-L power:GNDD #PWR0115
-U 1 1 5F296ACA
-P 1200 6200
-F 0 "#PWR0115" H 1200 5950 50  0001 C CNN
-F 1 "GNDD" H 1204 6045 50  0000 C CNN
-F 2 "" H 1200 6200 50  0001 C CNN
-F 3 "" H 1200 6200 50  0001 C CNN
-	1    1200 6200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED D2
 U 1 1 5F292408
@@ -606,10 +473,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 3250 3200 3250
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0116
 U 1 1 5F2A9A67
 P 3200 3250
-F 0 "#PWR?" H 3200 3100 50  0001 C CNN
+F 0 "#PWR0116" H 3200 3100 50  0001 C CNN
 F 1 "VCC" H 3215 3423 50  0000 C CNN
 F 2 "" H 3200 3250 50  0001 C CNN
 F 3 "" H 3200 3250 50  0001 C CNN
@@ -617,4 +484,126 @@ F 3 "" H 3200 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3200 3250
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F294DD1
+P 5550 5250
+F 0 "SW1" V 5504 5398 50  0000 L CNN
+F 1 "SW_Push" V 5595 5398 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 5550 5450 50  0001 C CNN
+F 3 "~" H 5550 5450 50  0001 C CNN
+	1    5550 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0117
+U 1 1 5F295D17
+P 5550 5450
+F 0 "#PWR0117" H 5550 5200 50  0001 C CNN
+F 1 "GNDD" H 5554 5295 50  0000 C CNN
+F 2 "" H 5550 5450 50  0001 C CNN
+F 3 "" H 5550 5450 50  0001 C CNN
+	1    5550 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 5050 0    50   Input ~ 0
+EN
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5F294330
+P 6200 5250
+F 0 "SW2" V 6154 5398 50  0000 L CNN
+F 1 "SW_Push" V 6245 5398 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 6200 5450 50  0001 C CNN
+F 3 "~" H 6200 5450 50  0001 C CNN
+	1    6200 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0118
+U 1 1 5F294336
+P 6200 5450
+F 0 "#PWR0118" H 6200 5200 50  0001 C CNN
+F 1 "GNDD" H 6204 5295 50  0000 C CNN
+F 2 "" H 6200 5450 50  0001 C CNN
+F 3 "" H 6200 5450 50  0001 C CNN
+	1    6200 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 5050 0    50   Input ~ 0
+D0
+$Comp
+L Connector:USB_A J3
+U 1 1 5F354476
+P 1200 4800
+F 0 "J3" H 1257 5267 50  0000 C CNN
+F 1 "USB_A" H 1257 5176 50  0000 C CNN
+F 2 "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal" H 1350 4750 50  0001 C CNN
+F 3 " ~" H 1350 4750 50  0001 C CNN
+	1    1200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0119
+U 1 1 5F355B3F
+P 1200 5200
+F 0 "#PWR0119" H 1200 4950 50  0001 C CNN
+F 1 "GNDD" H 1204 5045 50  0000 C CNN
+F 2 "" H 1200 5200 50  0001 C CNN
+F 3 "" H 1200 5200 50  0001 C CNN
+	1    1200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0120
+U 1 1 5F35609A
+P 1100 5200
+F 0 "#PWR0120" H 1100 4950 50  0001 C CNN
+F 1 "GNDD" H 1104 5045 50  0000 C CNN
+F 2 "" H 1100 5200 50  0001 C CNN
+F 3 "" H 1100 5200 50  0001 C CNN
+	1    1100 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4600 1850 4600
+Wire Wire Line
+	1500 4800 1850 4800
+Wire Wire Line
+	1500 4900 1850 4900
+Text Label 1700 4900 0    50   ~ 0
+D_N
+Text Label 1700 4800 0    50   ~ 0
+D_P
+Text GLabel 1850 4600 2    50   Input ~ 0
+VBUS
+$Comp
+L Programmer-rescue:82400102-SamacSys_Parts D1
+U 1 1 5F36845F
+P 3400 5200
+F 0 "D1" H 4050 5465 50  0000 C CNN
+F 1 "82400102" H 4050 5374 50  0000 C CNN
+F 2 "SOT95P280X145-6N" H 4550 5300 50  0001 L CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 4550 5200 50  0001 L CNN
+F 4 "TVS Diode Array WE-TVS 2-Ch+VDD 5V SOT23 Wurth Elektronik 82400102, Uni-Directional TVS Diode Array Array, 7.7V, 6-Pin SOT-23" H 4550 5100 50  0001 L CNN "Description"
+F 5 "1.45" H 4550 5000 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 4550 4900 50  0001 L CNN "Manufacturer_Name"
+F 7 "82400102" H 4550 4800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "82400102" H 4550 4700 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 4550 4600 50  0001 L CNN "Arrow Price/Stock"
+F 10 "710-82400102" H 4550 4500 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/82400102?qs=Wn16VcyqZWq4x2NXBP4V%252Bw%3D%3D" H 4550 4400 50  0001 L CNN "Mouser Price/Stock"
+	1    3400 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5400 3400 5500
+Wire Wire Line
+	3400 5500 3100 5500
+Wire Wire Line
+	3100 5200 3400 5200
+Wire Wire Line
+	3400 5300 3300 5300
+Wire Wire Line
+	3300 5300 3300 5750
 $EndSCHEMATC
