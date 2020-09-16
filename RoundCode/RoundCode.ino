@@ -78,6 +78,7 @@ void setup() {
   Serial.print(ID);
   Serial.println(" Booting");
   Serial.println("Setup Done");
+  updatestatus = 1; //Start med at sende status til senver
 }
 
 void SendStatus() {
