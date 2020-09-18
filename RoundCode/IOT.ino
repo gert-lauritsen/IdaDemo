@@ -13,7 +13,7 @@ void ReadSetup() {
       configFile.readBytes(buf.get(), size);
       DynamicJsonBuffer jsonBuffer;
       JsonObject& json = jsonBuffer.parseObject(buf.get());
-      json.printTo(Serial);
+      //json.printTo(Serial);
       if (json.success()) {
         Serial.println("\nparsed json");
 
@@ -108,7 +108,7 @@ void wifiSetup() {
   ArduinoOTA.begin();
 
   /* Prepare MQTT client */
-  Serial.printf("MQTTServer %s port %s\n", mqtt_server, mqtt_port);
+//  Serial.printf("MQTTServer %s port %s\n", mqtt_server, mqtt_port);
   client.setServer(mqtt_server, atoi(mqtt_port));
   client.setCallback(callback);
 
